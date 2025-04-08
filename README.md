@@ -18,7 +18,9 @@ while (count < 3){
 
 **Correction**:
 ```
-I got the wrong 2nd value of j wrong as I thought the value of i would not change until after the loop iteration had passed, so I thought i would stay as 1 even after it had a newly declared value after the first loop statement. This which lead to the third values of i and j to also be wrong as the while loop goes through its 3rd iteration. 
+I got the wrong 2nd value of j wrong as I thought the value of i would not change until after the loop iteration had
+passed, so I thought i would stay as 1 even after it had a newly declared value after the first loop statement. This would
+lead to the third values of i and j of my answer to also be wrong as the while loop goes through its 3rd iteration. 
 
 Instead while count is declared 1, the program goes through the first iteration of the loop with the first statement of i
 being declared as i + j, placing their int values, 1 and 2 respectively, and adding them to newly declare the int value i
