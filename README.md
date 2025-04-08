@@ -63,7 +63,7 @@ for (int i = 0; i < 7; i++){
 }
 ```
 **Answer**:
-```
+
 | `i` |
 |-----|
 |0    |
@@ -71,7 +71,7 @@ for (int i = 0; i < 7; i++){
 |3    |
 |6    |
 |7    |
-```
+
 **Correction**:
 
 10. How many iterations are carried out by the following loop?
@@ -108,22 +108,40 @@ for (int j = 1, k = 1; j < 5 || k % 3 == 0; j = j + 2, k++){
 
 ```
 
-12. 
+12. Write a for loop that prints out the string str in reverse. For example, "bat" would be displayed as tab. Assume str has been declared and initialized.
 
 **Answer**:
 ```
-
+String reverse = "";
+for (int i = 0; i  < str.length(); i++) {
+    reverse = str.charAt(i) + reverse;
+}
+System.out.print(reverse);
 ```
 **Correction**:
 ```
 
 ```
 
-13. 
-
+13. Write a nested for loop that displays the pattern.
+```
+X
+O X
+O O X
+O O O X
+```
 **Answer**:
 ```
-
+for (int i = 1; i <= 4; i++) {
+   for (int j = 1; j <= i; j++) {
+      if(i == j) {
+         System.out.print("X");
+      } else {
+         System.out.print("O");
+      }
+   }
+   System.out.println();
+}
 ```
 **Correction**:
 ```
